@@ -1,0 +1,10 @@
+VAR x;
+VAR ignore;
+
+PROCEDURE printSquare(n);
+	WRITELN(n * n);
+BEGIN
+	x := 1;
+        ignore := printSquare(x + 2);
+END;
+.
